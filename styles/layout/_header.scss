@@ -24,6 +24,13 @@
 	&__nav {
 		display: none;
 	}
+	@media screen and (min-width:768px){
+		&__site-logo {
+			img {
+				height: 22px;
+			}
+		}
+	}
 	@media screen and (min-width:992px){
 		&__mobile {
 			display: none;
@@ -32,7 +39,7 @@
 			max-width: 1140px;
 			margin: auto;
 			img {
-				height: 35px;
+				height: 30px;
 			}
 		}
 		&__nav {
@@ -43,6 +50,13 @@
 		&__svg {
 			font-size: 1.2rem;
 			margin-right: 13px;
+		}
+	}
+	@media screen and (min-width:1200px){
+		&__site-logo {
+			img {
+				height: 35px;
+			}
 		}
 	}
 }
