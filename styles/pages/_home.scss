@@ -105,7 +105,8 @@
 .today-article {
 	padding: 100px 0 50px;
 	.image{
-		width: 455px;
+		width: 100%;
+		max-width: 455px;
 		aspect-ratio: 1/1;
 		margin: 2rem 0;
 		background-size: cover;
@@ -162,7 +163,8 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
-		width: 455px;
+		width: 100%;
+		max-width: 455px;
 		aspect-ratio: 1/1;
 		margin: 2rem 0;
 		position: relative;
