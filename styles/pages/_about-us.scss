@@ -1,0 +1,148 @@
+.about-us {
+	.header__nav {
+		a:nth-of-type(7){
+			color: #ff0303;
+		}
+	}
+}
+
+.hero-title {
+	padding: 50px 0px;
+	background-color: #efefef;
+	.wrapper {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	&__title{
+		font-family: "PT Serif", serif;
+		font-size: 1.8rem;
+		font-weight: normal;
+		margin: 0;
+	}
+	&__date {
+		font-style: italic;
+		font-size: 1rem;
+		font-weight: normal;
+		margin: 0;
+	}
+}
+
+.history {
+	padding-top: 100px;
+	&__title {
+		font-family: "PT Serif", serif;
+		font-size: 1.8rem;
+		font-weight: normal;
+		margin: 0 0 1.9rem;
+	}
+	p{
+		color: #9f9f9f;
+		margin-top: 0;
+		line-height: 2rem;
+	}
+	@media screen and (min-width:768px){
+		&__txt {
+			columns: 2;
+		}
+		p {
+			padding: 0 1rem;
+		}
+	}
+}
+
+.our-team {
+	padding-bottom: 70px;
+	&__title {
+		font-family: "PT Serif", serif;
+		font-size: 1.8rem;
+		font-weight: normal;
+		margin: 50px 0;
+	}
+	@media screen and (min-width:576px){
+		.card-member-wrapper {
+			max-width: 540px;
+			margin: auto;
+			display: grid;
+			gap: 2rem;
+			justify-items: center;
+			grid-template-columns: repeat(2,1fr);
+		}
+	}
+	@media screen and (min-width:768px){
+		.card-member-wrapper {
+			max-width: 1140px;
+			grid-template-columns: repeat(4,1fr);
+		}
+	}
+}
+
+.card-member{
+	display: flex;
+	flex-direction: column;
+	&__title {
+		font-size: 1.5rem;
+		font-family: "PT Serif", serif;
+		font-weight: normal;
+		margin-bottom: 8px;
+	}
+	&__link {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 1.5rem;
+		span{
+			font-size: 1.1rem;
+			font-style: italic;
+			color: #1d1d1dbf;
+		}
+		.icons{
+			display: flex;
+			gap: .5rem;
+		}
+		.icon {
+			color: #9f9f9f9f;
+		}
+	}
+}
+
+.hero-bottom {
+	position: relative;
+	text-align: center;
+	padding: 100px 1rem;
+	&__title {
+		font-family: "PT Serif", serif;
+		font-size: 2rem;
+		font-weight: normal;
+		margin: 0 0 8px;
+		color: #fff;
+	}
+	p{
+		color: #9f9f9f;
+		margin-top: 0;
+	}
+}
+
+.hero-bottom::after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	background-color: #0009;
+}
+
+.hero-bottom::before {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	background-image: url(../img/blog-img/cta.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}

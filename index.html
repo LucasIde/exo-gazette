@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="home">
     <header class="header">
         <div class="header__site-logo"><a href="./index.html"><img src="./img/core-img/logo.png" alt=""></a></div>
         <div class="separator"></div>
@@ -77,7 +77,7 @@
                         <img src="./img/blog-img/1.jpg" alt="">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ultrices egestas nunc, quis venenatis orci tincidunt id. Fusce commodo blandit eleifend. Nullam viverra tincidunt dolor, at pulvinar dui. Nullam at risus ut ipsum viverra posuere. Aliquam quis convallis enim. Nunc pulvinar molestie sem id blandit. Nunc venenatis interdum mollis. Aliquam finibus nulla quam, a iaculis justo finibus non. Suspendisse in fermentum nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ultrices egestas nunc, quis venenatis orci tincidunt id. Fusce commodo blandit eleifend.</p>
                         <div class="article_continue">
-                            <button class="ghost-button">continue reading <i class="fa fa-chevron-right" aria-hidden="true"></i></button>
+                            <button class="ghost-button-black">continue reading <i class="fa fa-chevron-right" aria-hidden="true"></i></button>
                             <div class="article__icons">
                                 <a href="">
                                     <div class="icon"><i class="fa fa-pinterest" aria-hidden="true"></i></div>
@@ -171,7 +171,7 @@
                 </div>
             </div>
             <div class="middle-article">
-                <article class="article big-article">
+                <article class="article">
                     <img src="./img/blog-img/12.jpg" alt="">
                     <a href=""><span class="article__vignette">video</span></a>
                     <a href="">
@@ -194,39 +194,41 @@
                     </a>
                     <h3 class="article__date">Nov 29, 2017</h3>
                 </article>
-                <article class="article small-article">
-                    <img src="./img/blog-img/14.jpg" alt="">
-                    <a href=""><span class="article__vignette">others</span></a>
-                    <a href="">
-                        <h2 class="article__title">11 hottest toys for this holiday season</h2>
-                    </a>
-                    <h3 class="article__date">Nov 29, 2017</h3>
-                </article>
-                <article class="article small-article">
-                    <img src="./img/blog-img/15.jpg" alt="">
-                    <a href=""><span class="article__vignette">video</span></a>
-                    <a href="">
-                        <h2 class="article__title">Get this good feeling about life</h2>
-                    </a>
-                    <h3 class="article__date">Nov 29, 2017</h3>
-                </article>
-                <article class="article small-article">
-                    <img src="./img/blog-img/16.jpg" alt="">
-                    <a href=""><span class="article__vignette">interview</span></a>
-                    <a href="">
-                        <h2 class="article__title">Get this good feeling about life</h2>
-                    </a>
-                    <h3 class="article__date">Nov 29, 2017</h3>
-                </article>
-                <article class="article small-article">
-                    <img src="./img/blog-img/17.jpg" alt="">
-                    <a href=""><span class="article__vignette">video</span></a>
-                    <a href="">
-                        <h2 class="article__title">11 hottest toys for this holiday season</h2>
-                    </a>
-                    <h3 class="article__date">Nov 29, 2017</h3>
-                </article>
-                <article class="article big-article last">
+                <div class="small-article">
+                    <article class="article">
+                        <img src="./img/blog-img/14.jpg" alt="">
+                        <a href=""><span class="article__vignette">others</span></a>
+                        <a href="">
+                            <h2 class="article__title">11 hottest toys for this holiday season</h2>
+                        </a>
+                        <h3 class="article__date">Nov 29, 2017</h3>
+                    </article>
+                    <article class="article">
+                        <img src="./img/blog-img/15.jpg" alt="">
+                        <a href=""><span class="article__vignette">video</span></a>
+                        <a href="">
+                            <h2 class="article__title">Get this good feeling about life</h2>
+                        </a>
+                        <h3 class="article__date">Nov 29, 2017</h3>
+                    </article>
+                    <article class="article">
+                        <img src="./img/blog-img/16.jpg" alt="">
+                        <a href=""><span class="article__vignette">interview</span></a>
+                        <a href="">
+                            <h2 class="article__title">Get this good feeling about life</h2>
+                        </a>
+                        <h3 class="article__date">Nov 29, 2017</h3>
+                    </article>
+                    <article class="article">
+                        <img src="./img/blog-img/17.jpg" alt="">
+                        <a href=""><span class="article__vignette">video</span></a>
+                        <a href="">
+                            <h2 class="article__title">11 hottest toys for this holiday season</h2>
+                        </a>
+                        <h3 class="article__date">Nov 29, 2017</h3>
+                    </article>
+                </div>
+                <article class="article">
                     <img src="./img/blog-img/13.jpg" alt="">
                     <a href=""><span class="article__vignette">video</span></a>
                     <a href="">
@@ -250,14 +252,81 @@
                     <h3 class="article__date">Nov 29, 2017</h3>
                 </article>
             </div>
-            <div class="bottom-article">
+        </div>
+        <div class="bottom-article">
+            <div class="wrapper">
                 <article class="article">
-                    <img src="./img/blog-img/" alt="">
-                    <a href="">
-                        <h4 class="article__title">Show suspended by PBS amid misconduct allegations</h4>
-                    </a>
+                    <div class="play">
+                        <img src="./img/blog-img/4.jpg" alt="">
+                        <i class="fa fa-play" aria-hidden="true"></i>
+                    </div>
+                        <a href="">
+                            <h4 class="article__title">Show suspended by PBS amid misconduct allegations</h4>
+                        </a>
                 </article>
-                <!-- *8 -->
+                <article class="article">
+                    <div class="play">
+                        <img src="./img/blog-img/5.jpg" alt="">
+                        <i class="fa fa-play" aria-hidden="true"></i>
+                    </div>
+                        <a href="">
+                            <h4 class="article__title">Parents to Congress</h4>
+                        </a>
+                </article>
+                <article class="article">
+                    <div class="play">
+                        <img src="./img/blog-img/6.jpg" alt="">
+                        <i class="fa fa-play" aria-hidden="true"></i>
+                    </div>
+                        <a href="">
+                            <h4 class="article__title">Third Buy Alert for This “Millionaire Maker” Stock</h4>
+                        </a>
+                </article>
+                <article class="article">
+                    <div class="play">
+                        <img src="./img/blog-img/7.jpg" alt="">
+                        <i class="fa fa-play" aria-hidden="true"></i>
+                    </div>
+                        <a href="">
+                            <h4 class="article__title">The Chicago Mercantile Exchange is set to begin</h4>
+                        </a>
+                </article>
+                <article class="article">
+                    <div class="play">
+                        <img src="./img/blog-img/8.jpg" alt="">
+                        <i class="fa fa-play" aria-hidden="true"></i>
+                    </div>
+                        <a href="">
+                            <h4 class="article__title">Trading bitcoin futures</h4>
+                        </a>
+                </article>
+                <article class="article">
+                    <div class="play">
+                        <img src="./img/blog-img/9.jpg" alt="">
+                        <i class="fa fa-play" aria-hidden="true"></i>
+                    </div>
+                        <a href="">
+                            <h4 class="article__title">Are ‘Micro-Mansions’ the Next Big Thing?</h4>
+                        </a>
+                </article>
+                <article class="article">
+                    <div class="play">
+                        <img src="./img/blog-img/10.jpg" alt="">
+                        <i class="fa fa-play" aria-hidden="true"></i>
+                    </div>
+                        <a href="">
+                            <h4 class="article__title">McKinney’s target market</h4>
+                        </a>
+                </article>
+                <article class="article">
+                    <div class="play">
+                        <img src="./img/blog-img/11.jpg" alt="">
+                        <i class="fa fa-play" aria-hidden="true"></i>
+                    </div>
+                        <a href="">
+                            <h4 class="article__title">Australian Property Prices Remain Flat</h4>
+                        </a>
+                </article>
             </div>
         </div>
     </main>
@@ -265,7 +334,7 @@
         <div class="wrapper">
             <nav class="footer-nav">
                 <div class="theme">
-                    <h2 class="footer-nav__title">Regions</h2>
+                    <h2 class="theme__title">Regions</h2>
                     <a href="">U.S.</a>
                     <a href="">Africa</a>
                     <a href="">Americas</a>
@@ -277,21 +346,21 @@
                     <a href="">Opinion</a>
                 </div>
                 <div class="theme">
-                    <h2 class="footer-nav__title">Fashion</h2>
+                    <h2 class="theme__title">Fashion</h2>
                     <a href="">Election 2016</a>
                     <a href="">Nation</a>
                     <a href="">World</a>
                     <a href="">Our Team</a>
                 </div>
                 <div class="theme">
-                    <h2 class="footer-nav__title">Politics</h2>
+                    <h2 class="theme__title">Politics</h2>
                     <a href="">Business</a>
                     <a href="">Markets</a>
                     <a href="">Tech</a>
                     <a href="">Luxury</a>
                 </div>
                 <div class="theme">
-                    <h2 class="footer-nav__title">Featured</h2>
+                    <h2 class="theme__title">Featured</h2>
                     <a href="">Football</a>
                     <a href="">Golf</a>
                     <a href="">Tennis</a>
@@ -302,7 +371,7 @@
                     <a href="">Skiing</a>
                 </div>
                 <div class="theme">
-                    <h2 class="footer-nav__title">FAQ</h2>
+                    <h2 class="theme__title">FAQ</h2>
                     <a href="">Aviation</a>
                     <a href="">Business</a>
                     <a href="">Traveller</a>
@@ -313,7 +382,7 @@
                     <a href="">Partner Hotels</a>
                 </div>
                 <div class="theme">
-                    <h2 class="footer-nav__title">+More</h2>
+                    <h2 class="theme__title">+More</h2>
                     <a href="">Fashion</a>
                     <a href="">Design</a>
                     <a href="">Architecture</a>
@@ -323,7 +392,7 @@
                 </div>
             </nav>
         </div>
-        <span class="footer-nav__copyright">Copyright ©2025 All rights reserved | This template is made with love by Colorlib</span>
+        <p class="footer-nav__copyright">Copyright ©2025 All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by Colorlib</p>
     </footer>
 </body>
 </html>

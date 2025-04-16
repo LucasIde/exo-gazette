@@ -3,44 +3,175 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/3379e155de.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./styles/styles.min.css">
     <title>About Us</title>
 </head>
-<body>
-    <header></header>
-    <main>
+<body class="about-us">
+    <header class="header">
+        <div class="header__site-logo"><a href="./index.html"><img src="./img/core-img/logo.png" alt=""></a></div>
+        <div class="separator"></div>
+        <div class="header__mobile">
+            <div class="menu-burger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <span>Menu</span>
+        </div>
+        <nav class="header__nav">
+            <div class="header__nav__link">
+                <a href="./index.html">today</a>
+                <a href="">politics</a>
+                <a href="">lifestyle</a>
+                <a href="">travel</a>
+                <a href="">health</a>
+                <a href="">entertainement</a>
+                <a href="./about-us.html">about us</a>
+                <a href="./contact.html">contact</a>
+            </div>
+            <div class="header__svg"><i class="fa-solid fa-magnifying-glass"></i></div>
+        </nav>
+    </header>
+    <main class="about-us-main">
         <div class="hero-title">
-            <h2 class="hero-title__title">About Us</h2>
-            <h3 class="hero-title__date">28 November 2017</h3>
+            <div class="wrapper">
+                <h2 class="hero-title__title">About Us</h2>
+                <h3 class="hero-title__date">28 November 2017</h3>
+            </div>
         </div>
-        <div class="history">
-            <h2 class="history__title">Sort History</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam congue placerat finibus. Fusce a enim non erat faucibus pellentesque. Ut mattis vel leo sit amet tincidunt. Sed placerat condimentum ante vitae ornare. Nam nibh leo, pharetra vel lacus in, dictum tincidunt magna. Aliquam ut placerat justo. Duis elementum justo in sapien auctor, ut placerat purus sodales. Pellentesque a risus eu elit scelerisque fermentum in sed nisi. Sed maximus vel lectus sit</p>
-            <p>amet rhoncus. Vestibulum ut mattis mi, ac aliquam turpis. Suspendisse potenti. In semper nec urna sed mattis. Vivamus augue tellus, placerat nec lectus a, sodales sollicitudin arcu. enean a porta sem. In a nunc sapien. Aliquam justo augue, ornare eu mauris varius, scelerisque consequat purus. Ut semper ac neque eu cursus. Cras pellentesque quam vel metus bibendum, ac fringilla tellus tempus.</p>
-        </div>
-        <div class="our-team">
-            <h2 class="our-team__title">Our Team</h2>
-            <div class="card-member">
-                <img src="./img/bg-img/t1.jpg" alt="">
-                <h3 class="card-member__title">Jane Doe</h3>
-                <div class="card-member__link">
-                    <span>Editor</span>
-                    <div class="icons">
-                        <div class="icon"></div>
-                        <div class="icon"></div>
-                        <div class="icon"></div>
+        <div class="wrapper">
+            <div class="history">
+                <h2 class="history__title">Sort History</h2>
+                <div class="history__txt">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam congue placerat finibus. Fusce a enim non erat faucibus pellentesque. Ut mattis vel leo sit amet tincidunt. Sed placerat condimentum ante vitae ornare. Nam nibh leo, pharetra vel lacus in, dictum tincidunt magna. Aliquam ut placerat justo. Duis elementum justo in sapien auctor, ut placerat purus sodales. Pellentesque a risus eu elit scelerisque fermentum in sed nisi. Sed maximus vel lectus sit</p>
+                    <p>amet rhoncus. Vestibulum ut mattis mi, ac aliquam turpis. Suspendisse potenti. In semper nec urna sed mattis. Vivamus augue tellus, placerat nec lectus a, sodales sollicitudin arcu. enean a porta sem. In a nunc sapien. Aliquam justo augue, ornare eu mauris varius, scelerisque consequat purus. Ut semper ac neque eu cursus. Cras pellentesque quam vel metus bibendum, ac fringilla tellus tempus.</p>
+                </div>
+            </div>
+            <div class="our-team">
+                <h2 class="our-team__title">Our Team</h2>
+                <div class="card-member-wrapper">
+                    <div class="card-member">
+                        <img src="./img/bg-img/t1.jpg" alt="">
+                        <h3 class="card-member__title">Jane Doe</h3>
+                        <div class="card-member__link">
+                            <span>Editor</span>
+                            <div class="icons">
+                                <a href="" class="icon"><i class="fa fa-instagram"></i></a>
+                                <a href="" class="icon"><i class="fa fa-linkedin"></i></a>
+                                <a href="" class="icon"><i class="fa fa-facebook"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-member">
+                        <img src="./img/bg-img/t2.jpg" alt="">
+                        <h3 class="card-member__title">Jacqueline Coquelicot</h3>
+                        <div class="card-member__link">
+                            <span>Editor</span>
+                            <div class="icons">
+                                <a href="" class="icon"><i class="fa fa-instagram"></i></a>
+                                <a href="" class="icon"><i class="fa fa-linkedin"></i></a>
+                                <a href="" class="icon"><i class="fa fa-facebook"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-member">
+                        <img src="./img/bg-img/t3.jpg" alt="">
+                        <h3 class="card-member__title">Jean-Marie le BG</h3>
+                        <div class="card-member__link">
+                            <span>Editor</span>
+                            <div class="icons">
+                                <a href="" class="icon"><i class="fa fa-instagram"></i></a>
+                                <a href="" class="icon"><i class="fa fa-linkedin"></i></a>
+                                <a href="" class="icon"><i class="fa fa-facebook"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-member">
+                        <img src="./img/bg-img/t4.jpg" alt="">
+                        <h3 class="card-member__title">On t'a reconnue</h3>
+                        <div class="card-member__link">
+                            <span>Editor</span>
+                            <div class="icons">
+                                <a href="" class="icon"><i class="fa fa-instagram"></i></a>
+                                <a href="" class="icon"><i class="fa fa-linkedin"></i></a>
+                                <a href="" class="icon"><i class="fa fa-facebook"></i></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <!-- *3 -->
         </div>
         <div class="hero-bottom">
             <!-- img bgi -->
              <h2 class="hero-bottom__title">Join Our Team</h2>
              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis porttitor, elit vel pellentesque faucibus, massa ligula rutrum erat, id aliquam orci urna in ante.</p>
-             <button class="ghost-button">contact us <i class="fa fa-chevron-right" aria-hidden="true"></i></button>
+             <button class="ghost-button-white">contact us <i class="fa fa-chevron-right" aria-hidden="true"></i></button>
         </div>
     </main>
-    <footer></footer>
+    <footer>
+        <div class="wrapper">
+            <nav class="footer-nav">
+                <div class="theme">
+                    <h2 class="theme__title">Regions</h2>
+                    <a href="">U.S.</a>
+                    <a href="">Africa</a>
+                    <a href="">Americas</a>
+                    <a href="">Asia</a>
+                    <a href="">China</a>
+                    <a href="">Europe</a>
+                    <a href="">Middle</a>
+                    <a href="">East</a>
+                    <a href="">Opinion</a>
+                </div>
+                <div class="theme">
+                    <h2 class="theme__title">Fashion</h2>
+                    <a href="">Election 2016</a>
+                    <a href="">Nation</a>
+                    <a href="">World</a>
+                    <a href="">Our Team</a>
+                </div>
+                <div class="theme">
+                    <h2 class="theme__title">Politics</h2>
+                    <a href="">Business</a>
+                    <a href="">Markets</a>
+                    <a href="">Tech</a>
+                    <a href="">Luxury</a>
+                </div>
+                <div class="theme">
+                    <h2 class="theme__title">Featured</h2>
+                    <a href="">Football</a>
+                    <a href="">Golf</a>
+                    <a href="">Tennis</a>
+                    <a href="">Motorsport</a>
+                    <a href="">Horseracing</a>
+                    <a href="">Equestrian</a>
+                    <a href="">Sailing</a>
+                    <a href="">Skiing</a>
+                </div>
+                <div class="theme">
+                    <h2 class="theme__title">FAQ</h2>
+                    <a href="">Aviation</a>
+                    <a href="">Business</a>
+                    <a href="">Traveller</a>
+                    <a href="">Destinations</a>
+                    <a href="">Features</a>
+                    <a href="">Food/Drink</a>
+                    <a href="">Hotels</a>
+                    <a href="">Partner Hotels</a>
+                </div>
+                <div class="theme">
+                    <h2 class="theme__title">+More</h2>
+                    <a href="">Fashion</a>
+                    <a href="">Design</a>
+                    <a href="">Architecture</a>
+                    <a href="">Arts</a>
+                    <a href="">Autos</a>
+                    <a href="">Luxury</a>
+                </div>
+            </nav>
+        </div>
+        <p class="footer-nav__copyright">Copyright ©2025 All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by Colorlib</p>
+    </footer>
 </body>
 </html>
